@@ -49,10 +49,10 @@ export default function MainPage() {
           width={450}
           height={1000}
         />
-        <div className="mt-[-350px] text-5xl font-bold text-[#D9B700] animate-growAndShrink ">
+        <div className="mt-[-350px] text-5xl font-bold text-[#D9B700] ">
           Гүлғайша
         </div>
-        <div className="text-3xl text-[#D9B700] animate-growAndShrink ">Зейнет той</div>
+        <div className="text-3xl text-[#D9B700]">Зейнет той</div>
       </div>
 
       <div className="absolute bottom-20">

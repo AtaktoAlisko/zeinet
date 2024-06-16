@@ -49,12 +49,14 @@ export default function Info() {
         data-aos="fade-up"
         src="/decor.png"
         alt="decor"
-        width={200}
-        height={200}
+        width={100}
+        height={100}
         className="mx-auto w-[70%] -rotate-6"
       />
-      <div data-aos="fade-up" className="my-4 font-xxx text-3xl text-[#D9B700]
-      ]">
+      <div
+        data-aos="fade-up"
+        className="] my-4 font-xxx text-3xl text-[#D9B700]"
+      >
         Мекен-жайымыз:
       </div>
       <div
@@ -91,7 +93,7 @@ export default function Info() {
       </div>
       <Image
         data-aos="flip-up"
-        src="/decor.png"
+        src="/decorr.png"
         alt="decor"
         width={200}
         height={200}
@@ -132,13 +134,6 @@ export default function Info() {
           </div>
         </div>
       </div>
-      <Image
-        src="/decor.png"
-        alt="decor"
-        width={200}
-        height={200}
-        className="mx-auto w-[70%] -rotate-[190deg]"
-      />
     </div>
   );
 }
