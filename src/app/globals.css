@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "xxx";
+  src: url("/fonts/xxx.ttf") format("truetype");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
