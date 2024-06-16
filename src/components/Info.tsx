@@ -89,7 +89,7 @@ export default function Info() {
         data-aos="fade-up"
         className="mb-2 text-center font-xxx text-[30px] text-[#556B2F]"
       >
-        Балалары
+        баласы Олжас <br /> & <br /> келіні Ақерке
       </div>
       <Image
         data-aos="flip-up"

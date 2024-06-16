@@ -45,14 +45,16 @@ export default function MainPage() {
         <Image
           src="/two.png"
           alt="one"
-          className="animate-growAndShrink align-center mr-10 mt-[-280px]"
+          className="align-center mr-10 mt-[-280px] animate-growAndShrink"
           width={450}
           height={1000}
         />
-        <div className="mt-[-350px] text-5xl font-bold text-[#D9B700] ">
+        <div className="mt-[-350px] animate-growAndShrink text-5xl font-bold text-[#D9B700]">
           Гүлғайша
         </div>
-        <div className="text-3xl text-[#D9B700]">Зейнет той</div>
+        <div className="animate-growAndShrink text-3xl text-[#D9B700]">
+          Зейнет той
+        </div>
       </div>
 
       <div className="absolute bottom-20">
@@ -93,7 +95,7 @@ export default function MainPage() {
                 height={60}
                 className="ml-3"
               />
-              <p className="">
+              <p className="text-[#556B2F]">
                 Астыға <br /> түсіріңіз
               </p>
             </div>

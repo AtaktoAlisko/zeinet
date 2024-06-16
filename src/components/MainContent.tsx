@@ -137,7 +137,7 @@ export default function MainContent() {
           className="absolute right-[27px] top-[85px]"
         />
       </div>
-      <div className="mb-4">
+      <div data-aos="zoom-in" className="mb-4">
         <p className="mt-4 font-xxx text-3xl text-[#D9B700]">Той уақыты:</p>
         <p className="mt-4 font-xxx text-2xl text-[#556B2F]">19:00</p>
       </div>
