@@ -21,6 +21,7 @@ const config: Config = {
       animation: {
         "spin-slow": "spin 10s linear infinite",
         'spin-slowly': 'spin-slow 10s linear infinite',
+        'growAndShrink': 'growAndShrink 6s ease-in-out 3',  // 6s для замедления и 3 для трех циклов
       },
       keyframes: {
         spin: {
@@ -31,9 +32,15 @@ const config: Config = {
           '0%': { transform: 'rotate(0deg)' },
           '100%': { transform: 'rotate(-360deg)' },
         },
+        growAndShrink: {
+          '0%': { transform: 'scale(1)' },
+          '50%': { transform: 'scale(1.2)' },
+          '100%': { transform: 'scale(1)' },
+        },
       },
     },
   },
   plugins: [],
 };
+
 export default config;

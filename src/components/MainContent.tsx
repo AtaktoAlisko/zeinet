@@ -84,7 +84,7 @@ export default function MainContent() {
     <div className="mb-10 mt-12 flex flex-col items-center justify-center text-center">
       <div
         data-aos="fade-up"
-        className="mb-8 text-center font-xxx text-2xl leading-relaxed text-[#556B2F]"
+        className="mb-8 text-center font-xxx text-2xl leading-relaxed text-[#D9B700]"
       >
         Құрметті ағайын-туыс <br />
         бауырлар, құда-жекжат, <br /> нағашы-жиен, бөлелер, <br /> дос-жараңдар,
@@ -92,7 +92,7 @@ export default function MainContent() {
       </div>
       <div
         data-aos="fade-up"
-        className="mb-8 text-center font-georgia text-[20px] uppercase leading-relaxed text-[#D9B700]"
+        className="mb-8 text-center font-georgia text-[20px] uppercase leading-relaxed text-[#556B2F]"
       >
         сіз(дер)ді <br /> аяулы анамыз
       </div>
@@ -136,6 +136,10 @@ export default function MainContent() {
           alt="ring-decor"
           className="absolute right-[27px] top-[85px]"
         />
+      </div>
+      <div className="mb-5">
+        <p className="mt-4 font-xxx text-3xl text-[#D9B700]">Той уақыты:</p>
+        <p className="mt-4 font-xxx text-2xl text-[#556B2F]">19:00</p>
       </div>
       <div data-aos="zoom-in" className="mt-4 font-xxx text-3xl text-[#D9B700]">
         Тойға дейін қалды:
